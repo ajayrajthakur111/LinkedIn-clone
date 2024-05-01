@@ -3,13 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 ::-webkit-scrollbar {
   display: none;
   width: 0;
 }
+
 img:hover {
   cursor: pointer;
 }
+
 .linkedin {
   display: flex;
   flex-direction: column;
@@ -28,6 +31,7 @@ img:hover {
   align-items: center;
   justify-content: center;
 }
+
 .likedinIcon-searchBar {
   display: flex;
   align-items: center;
@@ -35,16 +39,19 @@ img:hover {
   width: 22vw;
   height: 56px;
 }
+
 .likedinIcon {
   height: 41px;
   width: 41px;
 }
+
 .searchBar {
-  background-color: rgb(236, 236, 236);
+  background-color: #ebe6e6;
   height: 34px;
   outline: none;
   border: none;
 }
+
 .navBar-Elements {
   display: flex;
   width: 50vw;
@@ -52,24 +59,29 @@ img:hover {
   align-items: center;
   justify-content: space-evenly;
 }
+
 .Icon {
   display: flex;
   flex-direction: column;
   color: rgb(105, 105, 105);
 }
+
 .Icon:hover {
   color: black;
   cursor: pointer;
 }
+
 .Logo {
   display: flex;
   justify-content: center;
   min-height: 24px;
   /* align-items: center; */
 }
-.MeLogo{
+
+.MeLogo {
   border-radius: 50%;
 }
+
 .Name {
   font-size: smaller;
   font-family: "Times New Roman", Times, serif;
@@ -85,6 +97,7 @@ img:hover {
   background-color: #f4f2ee;
   overflow: scroll;
 }
+
 .left-portion {
   height: 100vh;
   max-width: 20vw;
@@ -92,9 +105,11 @@ img:hover {
   margin-top: 12px;
   border-radius: 10px;
 }
+
 .left:hover {
   cursor: pointer;
 }
+
 .right-portion {
   display: flex;
   position: relative;
@@ -105,6 +120,7 @@ img:hover {
   position: sticky !important;
   top: -280px;
 }
+
 .center-portion {
   width: 555px;
   max-width: 40vw;
@@ -113,6 +129,7 @@ img:hover {
   margin: 10px;
   color: #666666;
 }
+
 .left-Upside {
   width: 100%;
   height: auto;
@@ -129,6 +146,7 @@ img:hover {
   /* margin: 200px; */
   background-color: #53565c;
 }
+
 .leftUpUp {
   display: flex;
   flex-direction: column;
@@ -136,6 +154,7 @@ img:hover {
   background-color: #1b1f23;
   height: min-content;
 }
+
 .leftUpLogo {
   width: 64px;
   height: 64px;
@@ -144,6 +163,7 @@ img:hover {
   position: relative;
   bottom: 40px;
 }
+
 .leftUpLogo1 {
   border-radius: 50%;
 }
@@ -160,16 +180,19 @@ img:hover {
 p {
   text-align: center;
 }
+
 .userName {
   margin-top: -40px;
   color: white;
   font-size: x-large;
 }
+
 .userName:hover {
   text-decoration: underline;
   text-decoration-color: #740ed4;
   cursor: pointer;
 }
+
 .profile-stats {
   display: flex;
   flex-direction: column;
@@ -177,49 +200,60 @@ p {
   padding: 12px 0;
   background-color: white;
 }
+
 .profile-stats-line {
   display: flex;
   justify-content: space-between;
   padding: 4px 12px;
 }
+
 .profile-stats-number {
   color: #2c88d4;
 }
+
 .profile-stats-line:hover {
   background-color: rgb(217, 217, 217);
   cursor: pointer;
 }
+
 .linkedin-premiuim-adv {
   display: flex;
   flex-direction: column;
   border-top: 1px solid gray;
   padding: 4px 12px;
 }
+
 .linkedin-premiuim-adv:hover,
 .My-Items:hover {
   background-color: rgb(217, 217, 217);
   cursor: pointer;
 }
+
 .linkedin-premiuim-adv:hover .premium {
   color: #2c88d4;
 }
+
 .premium {
   font-weight: 700;
 }
+
 .premium:hover {
   /* color: #2c88d4; */
   text-decoration: underline;
   cursor: pointer;
 }
+
 .My-Items {
   display: flex;
   align-items: center;
   padding: 4px 12px;
   border-top: 1px solid gray;
 }
+
 .My-Items-text {
   margin-left: 10px;
 }
+
 .leftDownside {
   display: flex;
   flex-direction: column;
@@ -237,22 +271,27 @@ p {
 .Groups {
   padding: 4px 12px;
 }
+
 .Groups:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+
 .Eventsplus {
   display: flex;
   justify-content: space-between;
   padding: 4px 12px;
 }
+
 .Events {
   width: 90%;
 }
+
 .Events:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+
 .plus {
   display: flex;
   align-items: center;
@@ -262,18 +301,22 @@ p {
   border-radius: 50%;
   color: rgb(107, 107, 107);
 }
+
 .plus:hover {
   color: black;
   background-color: rgb(228, 225, 225);
   cursor: pointer;
 }
+
 .Followed-Hashtags {
   padding: 4px 12px;
 }
+
 .Followed-Hashtags:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+
 .Discover-more {
   display: flex;
   align-items: center;
@@ -282,10 +325,12 @@ p {
   color: rgb(120, 120, 120);
   font-weight: 600;
 }
+
 .Discover-more:hover {
   background-color: rgb(216, 220, 220);
   cursor: pointer;
 }
+
 .createPost {
   width: 100%;
   margin: 0 0 8px 0;
@@ -294,6 +339,7 @@ p {
   border-radius: 5px;
   background-color: white;
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -302,15 +348,18 @@ p {
   border-radius: 50%;
   margin: 0 8px 0 8px;
 }
+
 *.logo:hover {
   cursor: pointer;
 }
+
 .postBarUP {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin: 8px 0 8px 0;
 }
+
 .postBarUPWriting {
   width: calc(100% - 64px);
   height: 56px;
@@ -322,9 +371,11 @@ p {
   padding: 4px 0;
   margin: 10px 8px 10px 8px;
 }
+
 .postBarUPWriting:hover {
   background-color: #f0f2f5;
 }
+
 .Start-a-post {
   display: flex;
   margin: 4px auto 4px 18px;
@@ -334,6 +385,7 @@ p {
   border: none;
   width: calc(100% - 64px);
 }
+
 .postBarDown {
   display: flex;
   align-items: centre;
@@ -341,11 +393,13 @@ p {
   height: 48px;
   /* margin: 10px; */
 }
+
 .pbdButtonLogo {
   display: flex;
   align-items: center;
   justify-content: stretch;
 }
+
 .pbd-button {
   margin: 5px;
   background-color: transparent;
@@ -354,15 +408,18 @@ p {
   font-weight: bold;
   color: #727272;
 }
+
 .postBarDown :hover {
   cursor: pointer;
   background-color: #f1efef;
   border-radius: 3px;
   cursor: pointer;
 }
+
 .sort-by-option {
   width: 100%;
 }
+
 .sort-by-option {
   display: flex;
   /* flex-direction: column; */
@@ -371,15 +428,18 @@ p {
   border: none;
   width: 100%;
 }
+
 hr {
   width: 80%;
   /* min-width: fit-content; */
 }
+
 .sort-by-option-main-portion {
   position: relative;
   display: flex;
   height: 16px;
 }
+
 .sort-by-letters {
   color: gray;
   width: 60px;
@@ -395,7 +455,8 @@ hr {
   background-color: transparent;
   border: none;
 }
-.top::selection{
+
+.top::selection {
   border: collapse;
 }
 
@@ -408,6 +469,7 @@ hr {
   padding: 4px 0;
   margin: 4px 0;
 }
+
 .other-user-info {
   display: flex;
   justify-content: space-between;
@@ -415,36 +477,44 @@ hr {
   height: 56px;
   padding: 0 12px;
 }
+
 .other-user-info-photo-and-data {
   display: flex;
   width: 90%;
 }
+
 .other-user-info-photo-and-data:hover {
   cursor: pointer;
 }
+
 .other-user-info-photo {
   background-color: #ffffff;
   width: 48px;
   height: 48px;
   border-radius: 50%;
 }
-.other-user-info-data{
+
+.other-user-info-data {
   width: calc(100% - 48px);
 }
+
 .other-user-info-data-name-following {
   padding-left: 5px;
   display: flex;
 }
+
 .other-user-info-data-name {
   padding: 0 4px;
   font-weight: bold;
 }
+
 .other-user-info-data-name:hover {
   cursor: pointer;
   color: #2c88d4;
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
+
 .other-user-info-data-about {
   width: auto;
   /* min-width: 30%; */
@@ -454,17 +524,20 @@ hr {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .other-user-info-data-lastActive {
   display: flex;
   gap: 5px;
   padding: 0 4px;
 }
+
 .x,
 .postsByPeopleInfoThreeDot:hover {
   cursor: pointer;
   /* background-color: #ecebeb; */
   border-radius: 50%;
 }
+
 .x {
   position: relative;
   margin-top: 15px;
@@ -486,6 +559,7 @@ hr {
   min-height: 20px;
   padding: 5px;
 }
+
 .other-user-photo {
   width: 100%;
   height: auto;
@@ -493,6 +567,7 @@ hr {
   /* background-color: #53565c; */
   object-fit: contain;
 }
+
 .other-user-LCRS {
   display: flex;
   flex-direction: column;
@@ -500,35 +575,42 @@ hr {
   height: auto;
   background-color: white;
 }
+
 .emojiLCS {
   width: 100%;
   display: flex;
   justify-content: space-between;
   height: auto;
   padding: 8px;
+
   > .like-repost-Images {
     display: flex;
     align-items: center;
   }
 }
+
 .like-repost-Image1 {
   display: flex;
   position: relative;
   right: 5px;
 }
+
 .like-repost-Image2 {
   display: flex;
   position: relative;
   right: 9px;
 }
+
 .like-share-numbers {
   font-size: small;
 }
+
 .like-share-numbers:hover {
   color: #2c88d4;
   text-decoration: underline;
   cursor: pointer;
 }
+
 .buttonLCS {
   display: flex;
   background-color: white;
@@ -538,6 +620,7 @@ hr {
   width: 100%;
   padding: 4px 16px;
 }
+
 .buttonLCRS {
   display: flex;
   align-items: center;
@@ -547,13 +630,16 @@ hr {
   background-color: white;
   color: gray;
 }
+
 .buttonLCRS:hover {
   background-color: #ebedef;
 }
+
 .lcrs {
   font-weight: bold;
   padding: 3px;
 }
+
 .right-upside-portion {
   width: 100%;
   display: flex;
@@ -562,28 +648,35 @@ hr {
   border-radius: 5px;
   margin-bottom: 10px;
 }
+
 .LinkedIn-news-title-logo {
   display: flex;
   padding: 12px;
   justify-content: space-between;
 }
+
 .LinkedIn-news-title {
   font-weight: bolder;
 }
+
 .LinkedIn-news-logo {
   width: 24px;
   height: 24px;
 }
+
 .linkedln-news {
   overflow: hidden;
   height: 180px;
 }
+
 .expand-news {
   height: 310px;
 }
+
 li {
   margin-left: 20px;
 }
+
 .list-elem {
   display: inline-block;
   font-weight: bold;
@@ -596,6 +689,7 @@ li {
   color: #727272;
   font-size: smaller;
 }
+
 .show-more-button {
   display: inline-flex;
   align-items: center;
@@ -616,6 +710,7 @@ li {
   border-radius: 2px;
   cursor: pointer;
 }
+
 .right-downside-portion {
   width: 100%;
   height: auto;
@@ -623,6 +718,7 @@ li {
   flex-direction: column;
   background-color: white;
 }
+
 .right-downside-portion-image {
   width: 100%;
   height: auto;
@@ -630,6 +726,7 @@ li {
   background-color: #1b1f23;
   border-radius: 5px;
 }
+
 .right-downside-portion-others {
   display: flex;
   width: 100%;
@@ -638,23 +735,26 @@ li {
   justify-content: center;
   padding: 16px;
 }
+
 .rdpo {
   margin: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .rdpo:hover {
   cursor: pointer;
   color: #2c88d4;
   text-decoration: underline;
   cursor: pointer;
 }
+
 .linkedin-corporation-image {
-  background-color: #1b57d7;
   margin: 1px 4px;
   padding: auto;
 }
+
 .contact-Messaging {
   display: flex;
   flex-direction: column;
@@ -688,19 +788,23 @@ li {
   height: 96px;
   justify-content: space-between;
 }
+
 .Messaging-header-left {
   display: flex;
   align-items: center;
 }
+
 .Messaging-header-left-userLogo {
   max-width: 32px;
   max-height: 32px;
   border-radius: 50%;
   /* background-color: #1b1f23; */
 }
+
 .Messaging-header-left-text {
   padding-left: 8px;
 }
+
 .Messaging-header-right {
   display: flex;
   justify-content: space-evenly;
@@ -712,6 +816,7 @@ li {
   width: 22px;
   height: 22px;
 }
+
 .mhr:hover {
   background-color: #ebedef;
   border-radius: 50%;
@@ -724,9 +829,11 @@ li {
   width: 288px;
   height: 48px;
 }
+
 .mslf:hover {
   cursor: pointer;
 }
+
 .Messaging-searchBar-logo {
   position: absolute;
   left: 14px;
@@ -738,6 +845,7 @@ li {
   right: 14px;
   top: 2px;
 }
+
 .mslf {
   background-color: #d5dbe1;
   height: 28px;
@@ -745,6 +853,7 @@ li {
   margin: 8px 0;
   /* padding: 2px; */
 }
+
 .Messaging-searchBar-main {
   border: none;
   background-color: #d5dbe1;
@@ -753,12 +862,15 @@ li {
   height: 34px;
   margin: 8px 12px;
 }
+
 .Messaging-searchBar-main:hover {
   border: 2px solid black;
 }
+
 .Messaging-searchBar-main:focus {
   outline: none;
 }
+
 .Messaging-userFilters {
   display: flex;
   align-items: center;
@@ -767,41 +879,50 @@ li {
   background-color: white;
   width: 100%;
 }
+
 .Messaging-userFilter {
   width: 144px;
   height: 40px;
   border: none;
 }
+
 .Messaging-userFilter:hover {
   background-color: #ecebeb;
   cursor: pointer;
 }
+
 .Messaging-userFilter:active {
   border-bottom: 2px solid green;
 }
+
 .Messaging-body-focused {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 80vh; /* need to change bcd of fix height of messaging and distance from top (after removing the distance of other upper elems) */
+  height: 80vh;
+  /* need to change bcd of fix height of messaging and distance from top (after removing the distance of other upper elems) */
   overflow-y: scroll;
 }
-.Messaging-body-other{
+
+.Messaging-body-other {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 80vh; /* need to change bcd of fix height of messaging and distance from top (after removing the distance of other upper elems) */
+  height: 80vh;
+  /* need to change bcd of fix height of messaging and distance from top (after removing the distance of other upper elems) */
   overflow-y: scroll;
-
 }
-.Messaging-body-other{
-  display: none;}
+
+.Messaging-body-other {
+  display: none;
+}
 
 .Messaging-body-userInfo {
   display: flex;
   height: 70px;
   align-items: center;
 }
+
 .Messaging-body-userInfo-logo {
   display: flex;
   align-items: center;
@@ -810,23 +931,28 @@ li {
   background-color: black;
   border-radius: 50%;
 }
+
 .Messaging-body-userInfo-logo :hover {
   cursor: pointer;
 }
+
 .Messaging-body-userInfo-right {
   display: flex;
   flex-direction: column;
   width: calc(100% - 48px);
   padding: 8px 12px 8px 8px;
 }
+
 .Messaging-body-userInfo-main {
   display: flex;
   justify-content: space-between;
 }
+
 .Messaging-body-userInfo-main-userName {
   height: 16px;
   font-weight: 100;
 }
+
 .Messaging-body-userInfo-main-date {
   width: 38px;
   height: 16px;

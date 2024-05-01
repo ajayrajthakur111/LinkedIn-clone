@@ -1,471 +1,509 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LinkedIn Clone</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="linkedin">
-      <div class="navBar">
-        <div class="likedinIcon-searchBar">
-          <div>
-            <svg
-              class="likedinIcon"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              data-supported-dps="24x24"
-              fill="currentColor"
-              class="mercado-match"
-              width="24"
-              height="24"
-              focusable="false"
-            >
-              <path
-                d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
-              ></path>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LinkedIn Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="linkedin">
+    <div class="navBar">
+      <div class="likedinIcon-searchBar">
+        <img width="38" height="38" src="./SVGS/LinkedinLogo.svg" />
+        <input type="text" placeholder="Search" class="searchBar" />
+      </div>
+      <div class="navBar-Elements">
+        <div class="Home Icon">
+          <div class="HomeLogo Logo">
+            <svg src="./SVGS/HomeSVG.svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+              <path d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z"></path>
             </svg>
           </div>
-          <input type="text" placeholder="Search" class="searchBar" />
+          <div class="HomeName Name">Home</div>
         </div>
-        <div class="navBar-Elements">
-          <div class="Home Icon">
-            <div class="HomeLogo Logo">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                data-supported-dps="24x24"
-                fill="currentColor"
-                class="mercado-match"
-                width="24"
-                height="24"
-                focusable="false"
-              >
-                <path
-                  d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z"
-                ></path>
+
+        <div class="MyNetwork Icon">
+          <div class="networkLogo Logo">
+            <svg src="./SVGS/mynetworkSVG.svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+              <path
+                d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z">
+              </path>
+            </svg>
+          </div>
+          <div class="networkName Name">My Network</div>
+        </div>
+
+        <div class="Jobs Icon">
+          <div class="JobsLogo Logo">
+            <svg src="./SVGS/JobsNavBarSVG.svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+              <path
+                d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z">
+              </path>
+            </svg>
+          </div>
+          <div class="JobsName Name">Jobs</div>
+        </div>
+
+        <div class="Messaging Icon">
+          <div class="MessagingLogo Logo">
+            <svg src="./SVGS/messagingSVG.svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+              <path
+                d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z">
+              </path>
+            </svg>
+          </div>
+          <div class="MessagingName Name">Messaging</div>
+        </div>
+
+        <div class="Notifications Icon">
+          <div class="NotificationsLogo Logo">
+            <svg src="./SVGS/notificationSVG.svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+              <path
+                d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z">
+              </path>
+            </svg>
+          </div>
+          <div class="NotificationsName Name">Notifications</div>
+        </div>
+
+        <div class="Me Icon">
+          <div class="MeLogo Logo">
+            <img width="24" src="SVGS/profileImage.jpeg" height="24" alt="Ajay Rajput" />
+          </div>
+          <div class="MeName Name">
+            Me<svg role="img" src="./SVGS/Mediamodifier-Design.svg" width="16" height="16" viewBox="0 0 16 16"
+            >
+                <path d="M2 5l6 6 6-6z"></path>
               </svg>
-            </div>
-            <div class="HomeName Name">Home</div>
           </div>
+        </div>
 
-          <div class="MyNetwork Icon">
-            <div class="networkLogo Logo">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                data-supported-dps="24x24"
-                fill="currentColor"
-                class="mercado-match"
-                width="24"
-                height="24"
-                focusable="false"
-              >
-                <path
-                  d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z"
-                ></path>
-              </svg>
-            </div>
-            <div class="networkName Name">My Network</div>
+        <div class="ForBusiness Icon">
+          <div class="ForBusinessLogo Logo">
+            <svg src="./SVGS/businessSVG.svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+              <path
+                d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z">
+              </path>
+            </svg>
           </div>
+          <div class="ForBusinessName Name">ForBusiness</div>
+        </div>
 
-          <div class="Jobs Icon">
-            <div class="JobsLogo Logo">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                data-supported-dps="24x24"
-                fill="currentColor"
-                class="mercado-match"
-                width="24"
-                height="24"
-                focusable="false"
-              >
-                <path
-                  d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z"
-                ></path>
-              </svg>
-            </div>
-            <div class="JobsName Name">Jobs</div>
-          </div>
-
-          <div class="Messaging Icon">
-            <div class="MessagingLogo Logo">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                data-supported-dps="24x24"
-                fill="currentColor"
-                class="mercado-match"
-                width="24"
-                height="24"
-                focusable="false"
-              >
-                <path
-                  d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z"
-                ></path>
-              </svg>
-            </div>
-            <div class="MessagingName Name">Messaging</div>
-          </div>
-
-          <div class="Notifications Icon">
-            <div class="NotificationsLogo Logo">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                data-supported-dps="24x24"
-                fill="currentColor"
-                class="mercado-match"
-                width="24"
-                height="24"
-                focusable="false"
-              >
-                <path
-                  d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z"
-                ></path>
-              </svg>
-            </div>
-            <div class="NotificationsName Name">Notifications</div>
-          </div>
-
-          <div class="Me Icon">
-            <div class="MeLogo Logo">
-              <img
-                width="24"
-                src="SVGS/profileImage.jpeg"
-                "
-                height="24"
-                alt="Ajay Rajput"
-              />
-            </div>
-            <div class="MeName Name">
-              Me
-            </div>
-          </div>
-
-          <div class="ForBusiness Icon">
-            <div class="ForBusinessLogo Logo">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                data-supported-dps="24x24"
-                fill="currentColor"
-                class="mercado-match"
-                width="24"
-                height="24"
-                focusable="false"
-              >
-                <path
-                  d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z"
-                ></path>
-              </svg>
-            </div>
-            <div class="ForBusinessName Name">ForBusiness</div>
-          </div>
-
-          <div class="TryPremium Icon">
-            <div class="TryPremium Name">
-              Network Smarter, <br />Try Premium Free
-            </div>
+        <div class="TryPremium Icon">
+          <div class="TryPremium Name">
+            Network Smarter, <br />Try Premium Free
           </div>
         </div>
       </div>
-      <div class="downside-body">
-        <div class="left-portion">
-          <div class="left-Upside portion">
-            <div class="left-Up-Image-Background"></div>
-            <div class="leftUpUp">
-              <div class="leftUpLogo">
-                <img
-                  width="64"
-                  src="SVGS/profileImage.jpeg"
-                  "                 loading="lazy"
-                  height="64"
-                  alt="Photo of Ajay Rajput"
-                  class="leftUpLogo1"
-                />
-              </div>
-              <div class="userName">
-                <span class="">Ajay Rajput</span>
-              </div>
-              <span class="leftUpQualifications">
-                <p>
-                  Lorem10 Lorem10 Lorem10Lorem10 Lorem10 Lorem10 Lorem10
-                  Lorem10Lorem10 Lorem10 Lorem10Lorem10 Lorem10 Lorem10 Lorem10
-                  Lorem10Lorem10 Lorem10 Lorem10Lorem10 Lorem10 Lorem10 Lorem10
-                </p>
-              </span>
+    </div>
+    <div class="downside-body">
+      <div class="left-portion">
+        <div class="left-Upside portion">
+          <div class="left-Up-Image-Background"></div>
+          <div class="leftUpUp">
+            <div class="leftUpLogo">
+              <img width="64" src="SVGS/profileImage.jpeg" loading="lazy" height="64" alt="Photo of Ajay Rajput"
+                class="leftUpLogo1" />
             </div>
-            <div class="profile-stats">
-              <div class="profile-stats-line">
-                <div class="Profile-viewers">Profile viewers</div>
-                <div class="profile-stats-number">1K</div>
-              </div>
-              <div class="profile-stats-line">
-                <div>Post impressions</div>
-                <div class="profile-stats-number">3K</div>
-              </div>
+            <div class="userName">
+              <span class="">Ajay Rajput</span>
             </div>
-            <div class="linkedin-premiuim-adv">
-              <span>Strength your profile with an AI wriring assistant</span>
-              <a class="premium">Try Premium for ₹0</a>
+            <span class="leftUpQualifications">
+              <p>
+                Lorem10 Lorem10 Lorem10Lorem10 Lorem10 Lorem10 Lorem10
+                Lorem10Lorem10 Lorem10 Lorem10Lorem10 Lorem10 Lorem10 Lorem10
+                Lorem10Lorem10 Lorem10 Lorem10Lorem10 Lorem10 Lorem10 Lorem10
+              </p>
+            </span>
+          </div>
+          <div class="profile-stats">
+            <div class="profile-stats-line">
+              <div class="Profile-viewers">Profile viewers</div>
+              <div class="profile-stats-number">1K</div>
             </div>
-            <div class="My-Items">
-              <svg
-                aria-label="Save"
-                class=""
-                color="grey"
-                boder-radius="50"
-                height="16"
-                role="img"
-                viewBox="0 0 24 24"
-                width="16"
-              >
-                <title></title>
-                <polygon
-                  fill="none"
-                  points="20 21 12 13.44 4 21 4 3 20 3 20 21"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                ></polygon>
-              </svg>
-
-              <span class="My-Items-text"> My Items </span>
+            <div class="profile-stats-line">
+              <div>Post impressions</div>
+              <div class="profile-stats-number">3K</div>
             </div>
           </div>
+          <div class="linkedin-premiuim-adv">
+            <span>Strength your profile with an AI wriring assistant</span>
+            <a class="premium">Try Premium for ₹0</a>
+          </div>
+          <div class="My-Items">
+            <svg aria-label="Save" class="" color="grey" boder-radius="50" height="16" role="img" viewBox="0 0 24 24"
+              width="16">
+              <title></title>
+              <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21" stroke="currentColor"
+                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+            </svg>
 
-          <div class="leftDownside portion">
-            <div class="leftDownside1">
-              <div class="Groups">Groups</div>
-              <div class="Eventsplus">
-                <div class="Events">Events</div>
-                <div class="plus">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-plus"
-                  >
-                    <path d="M5 12h14" />
-                    <path d="M12 5v14" />
-                  </svg>
-                </div>
-              </div>
-              <div class="Followed-Hashtags">Followed Hashtags</div>
-            </div>
-            <div class="Discover-more">Discover more</div>
+            <span class="My-Items-text"> My Items </span>
           </div>
         </div>
-        <div class="center-portion">
-          <div class="createPost">
-            <div class="postBarUP">
-              <div class="logo">
-                <img
-                  class="logo"
-                  src="SVGS/profileImage.jpeg"
-                  "                 alt="Visit profile for Ajay Rajput"
-                />
+
+        <div class="leftDownside portion">
+          <div class="leftDownside1">
+            <div class="Groups">Groups</div>
+            <div class="Eventsplus">
+              <div class="Events">Events</div>
+              <div class="plus">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-plus">
+                  <path d="M5 12h14" />
+                  <path d="M12 5v14" />
+                </svg>
               </div>
-              <button class="postBarUPWriting">
-                <!-- <input class="Start-a-post" type="text" placeholder="Start a post" /> -->
-                <span class="Start-a-post"> Start a post </span>
+            </div>
+            <div class="Followed-Hashtags">Followed Hashtags</div>
+          </div>
+          <div class="Discover-more">Discover more</div>
+        </div>
+      </div>
+      <div class="center-portion">
+        <div class="createPost">
+          <div class="postBarUP">
+            <div class="logo">
+              <img class="logo" src="SVGS/profileImage.jpeg" alt="Visit profile for Ajay Rajput" />
+            </div>
+            <button class="postBarUPWriting">
+              <!-- <input class="Start-a-post" type="text" placeholder="Start a post" /> -->
+              <span class="Start-a-post"> Start a post </span>
+            </button>
+          </div>
+          <div class="postBarDown">
+            <div class="pbdButtonLogo" role="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="#67a8fe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-image">
+                <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
+                <circle cx="9" cy="9" r="2" />
+                <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" />
+              </svg>
+              <button class="pbd-button">Media</button>
+            </div>
+            <div class="pbdButtonLogo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="#C37D16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-calendar-days">
+                <path d="M8 2v4" />
+                <path d="M16 2v4" />
+                <rect width="18" height="18" x="3" y="4" rx="2" />
+                <path d="M3 10h18" />
+                <path d="M8 14h.01" />
+                <path d="M12 14h.01" />
+                <path d="M16 14h.01" />
+                <path d="M8 18h.01" />
+                <path d="M12 18h.01" />
+                <path d="M16 18h.01" />
+              </svg>
+              <button class="pbd-button">Event</button>
+            </div>
+            <div class="pbdButtonLogo">
+              <svg role="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" data-supported-dps="24x24" data-test-icon="content-align-left-medium"
+                type="content-align-left">
+                <path d="M4 5v3h16V5H4zm0 6v3h16v-3H4zm0 6v3h10v-3H4z"></path>
+              </svg>
+              <button class="pbd-button">Write article</button>
+            </div>
+          </div>
+        </div>
+        <div class="sort-by-option">
+          <hr>
+          <span class="sort-by-option-main-portion">
+            <span class="sort-by-letters">Sort by:</span>
+            <Select class="top">
+              <option value="Top" selected> Top</option>
+              <option value="Recent">Recent</option>
+            </Select>
+            <span class="dropdown">
+
+            </span>
+          </span>
+        </div>
+        <div class="post-by-others">
+          <div class="other-user-info">
+            <div class="other-user-info-photo-and-data">
+              <div class="other-user-info-photo">
+                <img class="other-user-info-photo" src="SVGS/post1profileImage.jpeg  " loading="lazy"
+                  alt="Harshit Trehan" />
+              </div>
+              <div class="other-user-info-data">
+                <div class="other-user-info-data-name-following">
+                  <div class="other-user-info-data-name">Harshit Trehan</div>
+                  <span class="other-user-info-data-following">
+                    • Following
+                  </span>
+                </div>
+                <div class="other-user-info-data-about">
+                  SWE @Atlassian | Ex-Juspay | 50k+ | B.Tech Gold..
+                </div>
+                <div class="other-user-info-data-lastActive">
+                  <div class="other-user-info-data-lastActive-time">7h •</div>
+                  <div class="other-user-info-data-lastActive-logo">
+                    <svg src="./SVGS/earthSVG.svg" viewBox="0 0 16 16" fill="currentColor" width="16" height="16">
+                      <path
+                        d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="other-user-info-threedot">
+              <ul class="postsByPeopleInfoThreeDot">
+                <span>
+                  <svg viewBox="0 0 20 20" width="20" height="20" fill="currentColor" class="" style="margin-top: 15px">
+                    <g fill-rule="evenodd" transform="translate(-446 -350)">
+                      <path
+                        d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0">
+                      </path>
+                    </g>
+                  </svg>
+                </span>
+                <span class="x"> </span>
+              </ul>
+            </div>
+          </div>
+          <div class="other-user-post-description">
+            What is async and await in JavaScript?
+          </div>
+          <div class="other-user-photo">
+            <img class="other-user-photo" src="SVGS/Image1.jpeg" loading="lazy" />
+          </div>
+          <div class="other-user-LCRS">
+            <div class="emojiLCS">
+              <div class="like-repost-Images">
+                <img class="like-repost-Image" src="./SVGS/likeSVG.svg" alt="like" />
+                <img class="like-repost-Image1" src="./SVGS/loveSVG.svg" alt="love" />
+                <img class="like-repost-Image2" src="./SVGS/celebrateSVG.svg" alt="celebrate" />
+                <span class="like-share-numbers">98 91</span>
+              </div>
+              <div class="like-share-numbers">2K reposts</div>
+            </div>
+            <div class="buttonLCS">
+              <button class="buttonLCRS Like">
+                <i data-visualcompletion="css-img" style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/iXiEGoxedPs.png');
+                      background-position: 0 -1050px;
+                      background-size: 26px 1500px;
+                      width: 18px;
+                      height: 18px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "></i>
+                <span class="lcrs"> Like </span>
+              </button>
+              <button class="buttonLCRS">
+                <i data-visualcompletion="css-img" style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/iXiEGoxedPs.png');
+                      background-position: 0px -950px;
+                      background-size: 26px 1500px;
+                      width: 18px;
+                      height: 18px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "></i>
+                <span class="lcrs"> Comment </span>
+              </button>
+
+              <button class="buttonLCRS">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#5E5E5E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-repeat-2">
+                  <path d="m2 9 3-3 3 3" />
+                  <path d="M13 18H7a2 2 0 0 1-2-2V6" />
+                  <path d="m22 15-3 3-3-3" />
+                  <path d="M11 6h6a2 2 0 0 1 2 2v10" />
+                </svg>
+                <span class="lcrs"> Repost </span>
+              </button>
+              <button class="buttonLCRS">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#5E5E5E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="">
+                  <path d="m22 2-7 20-4-9-9-4Z" />
+                  <path d="M22 2 11 13" />
+                </svg>
+                <span class="lcrs"> Send </span>
               </button>
             </div>
-            <div class="postBarDown">
-              <div class="pbdButtonLogo" role="button">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#67a8fe"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-image"
-                >
-                  <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
-                  <circle cx="9" cy="9" r="2" />
-                  <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" />
-                </svg>
-                <button class="pbd-button">Media</button>
+          </div>
+        </div>
+        <div class="post-by-others">
+          <div class="other-user-info">
+            <div class="other-user-info-photo-and-data">
+              <div class="other-user-info-photo">
+                <img class="other-user-info-photo" src="SVGS/post1profileImage.jpeg " loading="lazy"
+                  alt="Harshit Trehan" />
               </div>
-              <div class="pbdButtonLogo">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#C37D16"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-calendar-days"
-                >
-                  <path d="M8 2v4" />
-                  <path d="M16 2v4" />
-                  <rect width="18" height="18" x="3" y="4" rx="2" />
-                  <path d="M3 10h18" />
-                  <path d="M8 14h.01" />
-                  <path d="M12 14h.01" />
-                  <path d="M16 14h.01" />
-                  <path d="M8 18h.01" />
-                  <path d="M12 18h.01" />
-                  <path d="M16 18h.01" />
-                </svg>
-                <button class="pbd-button">Event</button>
-              </div>
-              <div class="pbdButtonLogo">
-                <svg
-                  role="none"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  data-supported-dps="24x24"
-                  data-test-icon="content-align-left-medium"
-                  type="content-align-left"
-                >
-                  <path d="M4 5v3h16V5H4zm0 6v3h16v-3H4zm0 6v3h10v-3H4z"></path>
-                </svg>
-                <button class="pbd-button">Write article</button>
+              <div class="other-user-info-data">
+                <div class="other-user-info-data-name-following">
+                  <div class="other-user-info-data-name">Harshit Trehan</div>
+                  <span class="other-user-info-data-following">
+                    • Following
+                  </span>
+                </div>
+                <div class="other-user-info-data-about">
+                  SWE @Atlassian | Ex-Juspay | 50k+ | B.Tech Gold..
+                </div>
+                <div class="other-user-info-data-lastActive">
+                  <div class="other-user-info-data-lastActive-time">7h •</div>
+                  <div class="other-user-info-data-lastActive-logo">
+                    <svg src="./SVGS/earthSVG.svg" viewBox="0 0 16 16" fill="currentColor" width="16" height="16">
+                      <path
+                        d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="sort-by-option">
-             <hr>
-              <span class="sort-by-option-main-portion">
-                <span class="sort-by-letters">Sort by:</span>
-                <Select class="top">
-                  <option value="Top" selected> Top</option>
-                  <option value="Recent">Recent</option>
-                </Select>
-                <span class="dropdown">
-                  
+            <div class="other-user-info-threedot">
+              <ul class="postsByPeopleInfoThreeDot">
+                <span>
+                  <svg viewBox="0 0 20 20" width="20" height="20" fill="currentColor" class="" style="margin-top: 15px">
+                    <g fill-rule="evenodd" transform="translate(-446 -350)">
+                      <path
+                        d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0">
+                      </path>
+                    </g>
+                  </svg>
                 </span>
-              </span>
+                <span class="x"> </span>
+              </ul>
+            </div>
           </div>
-          <div class="post-by-others">
-            <div class="other-user-info">
-              <div class="other-user-info-photo-and-data">
-                <div class="other-user-info-photo">
-                  <img
-                    class="other-user-info-photo"
-                    src="SVGS/post1profileImage.jpeg  "                    loading="lazy"
-                    alt="Harshit Trehan"
-                  />
-                </div>
-                <div class="other-user-info-data">
-                  <div class="other-user-info-data-name-following">
-                    <div class="other-user-info-data-name">Harshit Trehan</div>
-                    <span class="other-user-info-data-following">
-                      • Following
-                    </span>
-                  </div>
-                  <div class="other-user-info-data-about">
-                    SWE @Atlassian | Ex-Juspay | 50k+ | B.Tech Gold..
-                  </div>
-                  <div class="other-user-info-data-lastActive">
-                    <div class="other-user-info-data-lastActive-time">7h •</div>
-                    <div class="other-user-info-data-lastActive-logo">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 16 16"
-                        data-supported-dps="16x16"
-                        fill="currentColor"
-                        class="mercado-match"
-                        width="16"
-                        height="16"
-                        focusable="false"
-                      >
-                        <path
-                          d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
+          <div class="other-user-post-description">
+            "Why is it that every time I ask for a pair of hands, they come with a brain attached?" 🤔 </div>
+          <div class="other-user-photo">
+            <img class="other-user-photo" width="" src="SVGS/Image2.jpeg" />
+          </div>
+          <div class="other-user-LCRS">
+            <div class="emojiLCS">
+              <div class="like-repost-Images">
+                <img class="like-repost-Image" src="./SVGS/likeSVG.svg" alt="like" />
+                <img class="like-repost-Image1" src="./SVGS/loveSVG.svg" alt="love" />
+                <img class="like-repost-Image2" src="./SVGS/celebrateSVG.svg" alt="celebrate" />
+                <span class="like-share-numbers">98 91</span>
               </div>
-              <div class="other-user-info-threedot">
-                <ul class="postsByPeopleInfoThreeDot">
-                  <span>
-                    <svg
-                      viewBox="0 0 20 20"
-                      width="20"
-                      height="20"
-                      fill="currentColor"
-                      class=""
-                      style="margin-top: 15px"
-                    >
-                      <g fill-rule="evenodd" transform="translate(-446 -350)">
-                        <path
-                          d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
-                        ></path>
-                      </g>
-                    </svg>
+              <div class="like-share-numbers">2K reposts</div>
+            </div>
+            <div class="buttonLCS">
+              <button class="buttonLCRS Like">
+                <i data-visualcompletion="css-img" style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/iXiEGoxedPs.png');
+                      background-position: 0 -1050px;
+                      background-size: 26px 1500px;
+                      width: 18px;
+                      height: 18px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "></i>
+                <span class="lcrs"> Like </span>
+              </button>
+              <button class="buttonLCRS">
+                <i data-visualcompletion="css-img" style="
+                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/iXiEGoxedPs.png');
+                      background-position: 0px -950px;
+                      background-size: 26px 1500px;
+                      width: 18px;
+                      height: 18px;
+                      background-repeat: no-repeat;
+                      display: inline-block;
+                    "></i>
+                <span class="lcrs"> Comment </span>
+              </button>
+
+              <button class="buttonLCRS">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#5E5E5E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-repeat-2">
+                  <path d="m2 9 3-3 3 3" />
+                  <path d="M13 18H7a2 2 0 0 1-2-2V6" />
+                  <path d="m22 15-3 3-3-3" />
+                  <path d="M11 6h6a2 2 0 0 1 2 2v10" />
+                </svg>
+                <span class="lcrs"> Repost </span>
+              </button>
+              <button class="buttonLCRS">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="#5E5E5E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="">
+                  <path d="m22 2-7 20-4-9-9-4Z" />
+                  <path d="M22 2 11 13" />
+                </svg>
+                <span class="lcrs"> Send </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="post-by-others">
+          <div class="other-user-info">
+            <div class="other-user-info-photo-and-data">
+              <div class="other-user-info-photo">
+                <img class="other-user-info-photo" src="SVGS/post1profileImage.jpeg  " loading="lazy"
+                  alt="Harshit Trehan" />
+              </div>
+              <div class="other-user-info-data">
+                <div class="other-user-info-data-name-following">
+                  <div class="other-user-info-data-name">Harshit Trehan</div>
+                  <span class="other-user-info-data-following">
+                    • Following
                   </span>
-                  <span class="x"> </span>
-                </ul>
+                </div>
+                <div class="other-user-info-data-about">
+                  SWE @Atlassian | Ex-Juspay | 50k+ | B.Tech Gold..
+                </div>
+                <div class="other-user-info-data-lastActive">
+                  <div class="other-user-info-data-lastActive-time">7h •</div>
+                  <div class="other-user-info-data-lastActive-logo">
+                    <svg src="./SVGS/earthSVG.svg" viewBox="0 0 16 16" fill="currentColor" width="16" height="16">
+                      <path
+                        d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="other-user-post-description">
-              What is async and await in JavaScript?
+            <div class="other-user-info-threedot">
+              <ul class="postsByPeopleInfoThreeDot">
+                <span>
+                  <svg viewBox="0 0 20 20" width="20" height="20" fill="currentColor" class="" style="margin-top: 15px">
+                    <g fill-rule="evenodd" transform="translate(-446 -350)">
+                      <path
+                        d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0">
+                      </path>
+                    </g>
+                  </svg>
+                </span>
+                <span class="x"> </span>
+              </ul>
             </div>
-            <div class="other-user-photo">
-              <img
-                class="other-user-photo"
-                src="SVGS/Image1.jpeg"              loading="lazy"
-              />
-            </div>
+          </div>
+          <div class="other-user-post-description">
+            Restarting doesn't erase your progress...
+            Your experiences arm you for greater heights.
+          </div>
+          <div class="other-user-photo">
+            <img class="other-user-photo" width="" src="SVGS/Image3.jpeg" />
             <div class="other-user-LCRS">
               <div class="emojiLCS">
                 <div class="like-repost-Images">
-                  <img
-                    class="like-repost-Image"
-                    src="
-                    https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt"
-                    alt="like"
-                    data-test-reactions-icon-type="LIKE"
-                    data-test-reactions-icon-theme="light"
-                  />
-                  <img
-                    class="like-repost-Image1"
-                    src="
-                    https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22"
-                    alt="love"
-                    data-test-reactions-icon-type="EMPATHY"
-                    data-test-reactions-icon-theme="light"
-                  />
-                  <img
-                    class="like-repost-Image2"
-                    src="
-                    https://static.licdn.com/aero-v1/sc/h/b1dl5jk88euc7e9ri50xy5qo8"
-                    alt="celebrate"
-                    data-test-reactions-icon-type="PRAISE"
-                    data-test-reactions-icon-theme="light"
-                  />
+                  <img class="like-repost-Image" src="./SVGS/likeSVG.svg" alt="like" />
+                  <img class="like-repost-Image1" src="./SVGS/loveSVG.svg" alt="love" />
+                  <img class="like-repost-Image2" src="./SVGS/celebrateSVG.svg" alt="celebrate" />
                   <span class="like-share-numbers">98 91</span>
                 </div>
                 <div class="like-share-numbers">2K reposts</div>
               </div>
               <div class="buttonLCS">
                 <button class="buttonLCRS Like">
-                  <i
-                    data-visualcompletion="css-img"
-                    style="
+                  <i data-visualcompletion="css-img" style="
                       background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/iXiEGoxedPs.png');
                       background-position: 0 -1050px;
                       background-size: 26px 1500px;
@@ -473,14 +511,11 @@
                       height: 18px;
                       background-repeat: no-repeat;
                       display: inline-block;
-                    "
-                  ></i>
+                    "></i>
                   <span class="lcrs"> Like </span>
                 </button>
                 <button class="buttonLCRS">
-                  <i
-                    data-visualcompletion="css-img"
-                    style="
+                  <i data-visualcompletion="css-img" style="
                       background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/iXiEGoxedPs.png');
                       background-position: 0px -950px;
                       background-size: 26px 1500px;
@@ -488,24 +523,14 @@
                       height: 18px;
                       background-repeat: no-repeat;
                       display: inline-block;
-                    "
-                  ></i>
+                    "></i>
                   <span class="lcrs"> Comment </span>
                 </button>
 
                 <button class="buttonLCRS">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#5E5E5E"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-repeat-2"
-                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="#5E5E5E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-repeat-2">
                     <path d="m2 9 3-3 3 3" />
                     <path d="M13 18H7a2 2 0 0 1-2-2V6" />
                     <path d="m22 15-3 3-3-3" />
@@ -514,18 +539,8 @@
                   <span class="lcrs"> Repost </span>
                 </button>
                 <button class="buttonLCRS">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#5E5E5E"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class=""
-                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="#5E5E5E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="">
                     <path d="m22 2-7 20-4-9-9-4Z" />
                     <path d="M22 2 11 13" />
                   </svg>
@@ -534,522 +549,177 @@
               </div>
             </div>
           </div>
-          <div class="post-by-others">
-            <div class="other-user-info">
-              <div class="other-user-info-photo-and-data">
-                <div class="other-user-info-photo">
-                  <img
-                    class="other-user-info-photo"
-                    src="
-                    https://media.licdn.com/dms/image/D4D03AQHBcDl5nyYfag/profile-displayphoto-shrink_100_100/0/1682955653485?e=1717027200&amp;v=beta&amp;t=6qTZwZ81SXpz6wBa4H7rbKBS_80HPJkIIVafxYMVA3I"
-                    loading="lazy"
-                    alt="Harshit Trehan"
-                  />
-                </div>
-                <div class="other-user-info-data">
-                  <div class="other-user-info-data-name-following">
-                    <div class="other-user-info-data-name">Harshit Trehan</div>
-                    <span class="other-user-info-data-following">
-                      • Following
-                    </span>
-                  </div>
-                  <div class="other-user-info-data-about">
-                    SWE @Atlassian | Ex-Juspay | 50k+ | B.Tech Gold..
-                  </div>
-                  <div class="other-user-info-data-lastActive">
-                    <div class="other-user-info-data-lastActive-time">7h •</div>
-                    <div class="other-user-info-data-lastActive-logo">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 16 16"
-                        data-supported-dps="16x16"
-                        fill="currentColor"
-                        class="mercado-match"
-                        width="16"
-                        height="16"
-                        focusable="false"
-                      >
-                        <path
-                          d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="other-user-info-threedot">
-                <ul class="postsByPeopleInfoThreeDot">
-                  <span>
-                    <svg
-                      viewBox="0 0 20 20"
-                      width="20"
-                      height="20"
-                      fill="currentColor"
-                      class=""
-                      style="margin-top: 15px"
-                    >
-                      <g fill-rule="evenodd" transform="translate(-446 -350)">
-                        <path
-                          d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
-                        ></path>
-                      </g>
-                    </svg>
-                  </span>
-                  <span class="x"> </span>
-                </ul>
-              </div>
-            </div>
-            <div class="other-user-post-description">
-              "Why is it that every time I ask for a pair of hands, they come with a brain attached?" 🤔            </div>
-            <div class="other-user-photo">
-              <img
-              class="other-user-photo" width="" src="SVGS/Image2.jpeg" />           </div>
-            <div class="other-user-LCRS">
-              <div class="emojiLCS">
-                <div class="like-repost-Images">
-                  <img
-                    class="like-repost-Image"
-                    src="
 
-                    https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt
-                    "
-                    alt="like"
-                    data-test-reactions-icon-type="LIKE"
-                    data-test-reactions-icon-theme="light"
-                  />
-                  <img
-                    class="like-repost-Image1"
-                    src="
-                    https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22"
-                    alt="love"
-                    data-test-reactions-icon-type="EMPATHY"
-                    data-test-reactions-icon-theme="light"
-                  />
-                  <img
-                    class="like-repost-Image2"
-                    src="
-                    https://static.licdn.com/aero-v1/sc/h/b1dl5jk88euc7e9ri50xy5qo8"
-                    alt="celebrate"
-                    data-test-reactions-icon-type="PRAISE"
-                    data-test-reactions-icon-theme="light"
-                  />
-                  <span class="like-share-numbers">98 91</span>
-                </div>
-                <div class="like-share-numbers">2K reposts</div>
-              </div>
-              <div class="buttonLCS">
-                <button class="buttonLCRS Like">
-                  <i
-                    data-visualcompletion="css-img"
-                    style="
-                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/iXiEGoxedPs.png');
-                      background-position: 0 -1050px;
-                      background-size: 26px 1500px;
-                      width: 18px;
-                      height: 18px;
-                      background-repeat: no-repeat;
-                      display: inline-block;
-                    "
-                  ></i>
-                  <span class="lcrs"> Like </span>
-                </button>
-                <button class="buttonLCRS">
-                  <i
-                    data-visualcompletion="css-img"
-                    style="
-                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/iXiEGoxedPs.png');
-                      background-position: 0px -950px;
-                      background-size: 26px 1500px;
-                      width: 18px;
-                      height: 18px;
-                      background-repeat: no-repeat;
-                      display: inline-block;
-                    "
-                  ></i>
-                  <span class="lcrs"> Comment </span>
-                </button>
-
-                <button class="buttonLCRS">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#5E5E5E"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-repeat-2"
-                  >
-                    <path d="m2 9 3-3 3 3" />
-                    <path d="M13 18H7a2 2 0 0 1-2-2V6" />
-                    <path d="m22 15-3 3-3-3" />
-                    <path d="M11 6h6a2 2 0 0 1 2 2v10" />
-                  </svg>
-                  <span class="lcrs"> Repost </span>
-                </button>
-                <button class="buttonLCRS">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#5E5E5E"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class=""
-                  >
-                    <path d="m22 2-7 20-4-9-9-4Z" />
-                    <path d="M22 2 11 13" />
-                  </svg>
-                  <span class="lcrs"> Send </span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="post-by-others">
-            <div class="other-user-info">
-              <div class="other-user-info-photo-and-data">
-                <div class="other-user-info-photo">
-                  <img
-                    class="other-user-info-photo"
-                    src="
-                    https://media.licdn.com/dms/image/D4D03AQHBcDl5nyYfag/profile-displayphoto-shrink_100_100/0/1682955653485?e=1717027200&amp;v=beta&amp;t=6qTZwZ81SXpz6wBa4H7rbKBS_80HPJkIIVafxYMVA3I"
-                    loading="lazy"
-                    alt="Harshit Trehan"
-                    id="ember1708"
-                    class="ivm-view-attr__img--centered EntityPhoto-circle-3 update-components-actor__avatar-image evi-image lazy-image ember-view"
-                  />
-                </div>
-                <div class="other-user-info-data">
-                  <div class="other-user-info-data-name-following">
-                    <div class="other-user-info-data-name">Harshit Trehan</div>
-                    <span class="other-user-info-data-following">
-                      • Following
-                    </span>
-                  </div>
-                  <div class="other-user-info-data-about">
-                    SWE @Atlassian | Ex-Juspay | 50k+ | B.Tech Gold..
-                  </div>
-                  <div class="other-user-info-data-lastActive">
-                    <div class="other-user-info-data-lastActive-time">7h •</div>
-                    <div class="other-user-info-data-lastActive-logo">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 16 16"
-                        data-supported-dps="16x16"
-                        fill="currentColor"
-                        class="mercado-match"
-                        width="16"
-                        height="16"
-                        focusable="false"
-                      >
-                        <path
-                          d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="other-user-info-threedot">
-                <ul class="postsByPeopleInfoThreeDot">
-                  <span>
-                    <svg
-                      viewBox="0 0 20 20"
-                      width="20"
-                      height="20"
-                      fill="currentColor"
-                      class=""
-                      style="margin-top: 15px"
-                    >
-                      <g fill-rule="evenodd" transform="translate(-446 -350)">
-                        <path
-                          d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"
-                        ></path>
-                      </g>
-                    </svg>
-                  </span>
-                  <span class="x"> </span>
-                </ul>
-              </div>
-            </div>
-            <div class="other-user-post-description">
-              Restarting doesn't erase your progress...
-              Your experiences arm you for greater heights.
-            </div>
-            <div class="other-user-photo">
-              <img class="other-user-photo" width="" src="SVGS/Image3.jpeg"/>
-           <div class="other-user-LCRS">
-              <div class="emojiLCS">
-                <div class="like-repost-Images">
-                  <img
-                    class="like-repost-Image"
-                    src="
-                    https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt
-                    "
-                    alt="like"
-                    data-test-reactions-icon-type="LIKE"
-                    data-test-reactions-icon-theme="light"
-                  />
-                  <img
-                    class="like-repost-Image1"
-                    src="
-                    https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22
-                    "
-                    alt="love"
-                    data-test-reactions-icon-type="EMPATHY"
-                    data-test-reactions-icon-theme="light"
-                  />
-                  <img
-                    class="like-repost-Image2"
-                    src="
-                    https://static.licdn.com/aero-v1/sc/h/b1dl5jk88euc7e9ri50xy5qo8
-                    "
-                    alt="celebrate"
-                    data-test-reactions-icon-type="PRAISE"
-                    data-test-reactions-icon-theme="light"
-                  />
-                  <span class="like-share-numbers">98 91</span>
-                </div>
-                <div class="like-share-numbers">2K reposts</div>
-              </div>
-              <div class="buttonLCS">
-                <button class="buttonLCRS Like">
-                  <i
-                    data-visualcompletion="css-img"
-                   
-                    style="
-                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/iXiEGoxedPs.png');
-                      background-position: 0 -1050px;
-                      background-size: 26px 1500px;
-                      width: 18px;
-                      height: 18px;
-                      background-repeat: no-repeat;
-                      display: inline-block;
-                    "
-                  ></i>
-                  <span class="lcrs"> Like </span>
-                </button>
-                <button class="buttonLCRS">
-                  <i
-                    data-visualcompletion="css-img"
-                    style="
-                      background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/iXiEGoxedPs.png');
-                      background-position: 0px -950px;
-                      background-size: 26px 1500px;
-                      width: 18px;
-                      height: 18px;
-                      background-repeat: no-repeat;
-                      display: inline-block;
-                    "
-                  ></i>
-                  <span class="lcrs"> Comment </span>
-                </button>
-
-                <button class="buttonLCRS">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#5E5E5E"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-repeat-2"
-                  >
-                    <path d="m2 9 3-3 3 3" />
-                    <path d="M13 18H7a2 2 0 0 1-2-2V6" />
-                    <path d="m22 15-3 3-3-3" />
-                    <path d="M11 6h6a2 2 0 0 1 2 2v10" />
-                  </svg>
-                  <span class="lcrs"> Repost </span>
-                </button>
-                <button class="buttonLCRS">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#5E5E5E"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class=""
-                  >
-                    <path d="m22 2-7 20-4-9-9-4Z" />
-                    <path d="M22 2 11 13" />
-                  </svg>
-                  <span class="lcrs"> Send </span>
-                </button>
-              </div>
-            </div>
-          </div>
-         
         </div>
       </div>
-        <div class="right-portion">
-          <div class="right-upside-portion">
-            <div class="LinkedIn-news-title-logo">
-              <div class="LinkedIn-news-title">LinkedIn News</div>
-              <div>
-                <svg
-                  class="LinkedIn-news-logo"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
-                  />
-                </svg>
-              </div>
+      <div class="right-portion">
+        <div class="right-upside-portion">
+          <div class="LinkedIn-news-title-logo">
+            <div class="LinkedIn-news-title">LinkedIn News</div>
+            <div>
+              <svg class="LinkedIn-news-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+              </svg>
             </div>
-            <div  class="right-upside-portion-list-elem">
-              <ul class="linkedln-news">
-                <li>
-                  <div class="list-elem">
-                    More flights to take off this summer
-                  </div>
-                  <div class="list-elem-time">4d ago</div>
-                </li>
-                <li>
-                  <div class="list-elem">
-                    Alteria Capital raises ₹1,550 crore
-                  </div>
-                  <div class="list-elem-time">2d ago • 9,559 readers</div>
-                </li>
-                <li>
-                  <div class="list-elem">Startup funding trends for 2024</div>
-                  <div class="list-elem-time">2d ago</div>
-                </li>
-                <li>
-                  <div class="list-elem">NBFCs woo banking CXOs</div>
-                  <div class="list-elem-time">1d ago</div>
-                </li>
-                <li>
-                  <div class="list-elem">Women leaders rise across India</div>
-                  <div class="list-elem-time">3d ago</div>
-                </li>
-                <li>
-                  <div class="list-elem">
-                   Green courses are in at colleges</div>
-                  <div class="list-elem-time">2d ago</div>
-                </li>
-                <li>
-                  <div class="list-elem">How to set work-life boundaries?</div>
-                  <div class="list-elem-time">1d ago</div>
-                </li>
-              </ul>
-              <div >
-                <button class="show-more-button">Show more 
-                  <!-- <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#858585" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>                  </button> -->
-                  <!-- <svg class = "up-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-up"><path d="m18 15-6-6-6 6"/></svg> -->
+          </div>
+          <div class="right-upside-portion-list-elem">
+            <ul class="linkedln-news">
+              <li>
+                <div class="list-elem">
+                  More flights to take off this summer
                 </div>
+                <div class="list-elem-time">4d ago</div>
+              </li>
+              <li>
+                <div class="list-elem">
+                  Alteria Capital raises ₹1,550 crore
+                </div>
+                <div class="list-elem-time">2d ago • 9,559 readers</div>
+              </li>
+              <li>
+                <div class="list-elem">Startup funding trends for 2024</div>
+                <div class="list-elem-time">2d ago</div>
+              </li>
+              <li>
+                <div class="list-elem">NBFCs woo banking CXOs</div>
+                <div class="list-elem-time">1d ago</div>
+              </li>
+              <li>
+                <div class="list-elem">Women leaders rise across India</div>
+                <div class="list-elem-time">3d ago</div>
+              </li>
+              <li>
+                <div class="list-elem">
+                  Green courses are in at colleges</div>
+                <div class="list-elem-time">2d ago</div>
+              </li>
+              <li>
+                <div class="list-elem">How to set work-life boundaries?</div>
+                <div class="list-elem-time">1d ago</div>
+              </li>
+            </ul>
+            <div>
+              <button class="show-more-button">Show more
             </div>
           </div>
-          <div class="right-downside-portion">
-            <div class="right-downside-portion-image"  ><img  class="right-downside-portion-image" src="SVGS/SeeWho'sHiring.png"
-              " 
-              alt="Advertise on LinkedIn" border="0"></div>
-            <div class="right-downside-portion-others">
-              <div class="About rdpo">About</div>
-              <div class="Accessibility rdpo">Accessibility</div>
-              <div class="Help-center rdpo">Help Center
-              </div>
-              <div class="Privacy-Terms rdpo"><span>Privacy & Terms</span>  <span class="dropdown">
-                <svg
-                  role="img"
-                  aria-hidden="false"
-                  aria-label="Sort order dropdown button"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  data-supported-dps="16x16"
-                  data-test-icon="caret-small"
-                >
+        </div>
+        <div class="right-downside-portion">
+          <div class="right-downside-portion-image"><img class="right-downside-portion-image"
+              src="SVGS/SeeWho'sHiring.png" alt="Advertise on LinkedIn" border="0"></div>
+          <div class="right-downside-portion-others">
+            <div class="About rdpo">About</div>
+            <div class="Accessibility rdpo">Accessibility</div>
+            <div class="Help-center rdpo">Help Center
+            </div>
+            <div class="Privacy-Terms rdpo"><span>Privacy & Terms</span> <span class="dropdown">
+              <svg role="img" src="./SVGS/Mediamodifier-Design.svg" width="16" height="16" viewBox="0 0 16 16"
+              >
                   <path d="M2 5l6 6 6-6z"></path>
                 </svg>
               </span></div>
-              <div class="Ad-Choices rdpo">Ad Choices</div>
-              <div class="Advertising rdpo
+            <div class="Ad-Choices rdpo">Ad Choices</div>
+            <div class="Advertising rdpo
               ">Advertising
-              </div>
-              <div class="Business-Services rdpo"><span>Business Services</span><span class="dropdown">
-                <svg
-                  role="img"
-                  aria-hidden="false"
-                  aria-label="Sort order dropdown button"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  data-supported-dps="16x16"
-                  data-test-icon="caret-small"
-                >
+            </div>
+            <div class="Business-Services rdpo"><span>Business Services</span><span class="dropdown">
+                <svg role="img" src="./SVGS/Mediamodifier-Design.svg" width="16" height="16" viewBox="0 0 16 16"
+                   >
                   <path d="M2 5l6 6 6-6z"></path>
                 </svg>
               </span></div>
-              <div class="Get-the-LinkedIn-app rdpo">Get the LinkedIn app</div>
-              <div class="More rdpo">More</div>
-              
+            <div class="Get-the-LinkedIn-app rdpo">Get the LinkedIn app</div>
+            <div class="More rdpo">More</div>
 
 
 
 
 
- 
 
 
-            </div>
-<div class="linkedin-corporation">
-  <span class="linkedin-corporation-image">
 
-    <svg role="img" aria-hidden="false" aria-label="LinkedIn" class="global-footer-compact__linkedin-logo" xmlns="http://www.w3.org/2000/svg" width="56" height="14" viewBox="0 0 56 14" data-supported-dps="56x14" data-test-icon="linkedin-logo-blue-xxsmall">
-          <svg display="var(--hue-web-svg-display-light)">
-            <image href="https://static.licdn.com/aero-v1/sc/h/aahlc8ivbnmk0t3eyz8as5gvr" x="0" y="0" width="56" height="14"></image>
-          </svg>
-          <svg display="var(--hue-web-svg-display-dark)">
-            <image href="https://static.licdn.com/aero-v1/sc/h/34bl5fp6gi8t0nscavw94xa7x" x="0" y="0" width="56" height="14"></image>
-          </svg>
-  </span>
-    </svg>  <span class="linkedin-corporation-text">LinkedIn Corporation © 2024</span></div>
+
           </div>
-       </div>
+          <div class="linkedin-corporation">
+            <span class="linkedin-corporation-image">
+
+             <img src="./SVGS/linkedinPremiumImage.svg" width="56" height="14" alt="premium">
+            
+            </span>
+            </svg> <span class="linkedin-corporation-text">LinkedIn Corporation © 2024</span>
+          </div>
+        </div>
+      </div>
       <div class="contact-Messaging">
         <div class="Messaging-header">
           <div class="Messaging-header-left">
-            <span class="Messaging-header-left-userLogo"><img  class="Messaging-header-left-userLogo" width="" height="" src="SVGS/profileImage.jpeg"
-              " loading="lazy" alt="Ajay Rajput"></span>
+            <span class="Messaging-header-left-userLogo"><img class="Messaging-header-left-userLogo" width="" height=""
+                src="SVGS/profileImage.jpeg" loading="lazy" alt="Ajay Rajput"></span>
             <span class="Messaging-header-left-text">Messaging</span>
           </div>
           <div class="Messaging-header-right">
             <span>
-              <svg  class="Messaging-header-right-threedot mhr"viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
-              <g fill-rule="evenodd" transform="translate(-446 -350)">
-                <path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path>
-              </g>
-            </svg></span>
-            <span ><svg  class="Messaging-header-right-edit mhr" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-pen-line"><path d="m18 5-3-3H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2"/><path d="M8 18h1"/><path d="M18.4 9.6a2 2 0 1 1 3 3L17 17l-4 1 1-4Z"/></svg></span>
-            <span ><svg class="Messaging-header-right-show-hide mhr" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#101010" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg></span>
+              <svg class="Messaging-header-right-threedot mhr" viewBox="0 0 20 20" width="16" height="16"
+                fill="currentColor">
+                <g fill-rule="evenodd" transform="translate(-446 -350)">
+                  <path
+                    d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0">
+                  </path>
+                </g>
+              </svg></span>
+            <span><svg class="Messaging-header-right-edit mhr" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-file-pen-line">
+                <path d="m18 5-3-3H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2" />
+                <path d="M8 18h1" />
+                <path d="M18.4 9.6a2 2 0 1 1 3 3L17 17l-4 1 1-4Z" />
+              </svg></span>
+            <span><svg class="Messaging-header-right-show-hide mhr" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24" fill="none" stroke="#101010" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round" class="lucide lucide-chevron-down">
+                <path d="m6 9 6 6 6-6"></path>
+              </svg></span>
           </div>
 
         </div>
-        
+
         <div class="Messaging-searchBar">
-          
-            <label for="Messaging-searchBar-label">
-              <svg class="Messaging-searchBar-logo mslf" viewBox="0 0 16 16"  fill="currentColor" class=""  ><g fill-rule="evenodd" transform="translate(-448 -544)"><g fill-rule="nonzero"><path d="M10.743 2.257a6 6 0 1 1-8.485 8.486 6 6 0 0 1 8.485-8.486zm-1.06 1.06a4.5 4.5 0 1 0-6.365 6.364 4.5 4.5 0 0 0 6.364-6.363z" transform="translate(448 544)"></path><path d="M10.39 8.75a2.94 2.94 0 0 0-.199.432c-.155.417-.23.849-.172 1.284.055.415.232.794.54 1.103a.75.75 0 0 0 1.112-1.004l-.051-.057a.39.39 0 0 1-.114-.24c-.021-.155.014-.356.09-.563.031-.081.06-.145.08-.182l.012-.022a.75.75 0 1 0-1.299-.752z" transform="translate(448 544)"></path><path d="M9.557 11.659c.038-.018.09-.04.15-.064.207-.077.408-.112.562-.092.08.01.143.034.198.077l.041.036a.75.75 0 0 0 1.06-1.06 1.881 1.881 0 0 0-1.103-.54c-.435-.058-.867.018-1.284.175-.189.07-.336.143-.433.2a.75.75 0 0 0 .624 1.356l.066-.027.12-.061z" transform="translate(448 544)"></path><path d="m13.463 15.142-.04-.044-3.574-4.192c-.599-.703.355-1.656 1.058-1.057l4.191 3.574.044.04c.058.059.122.137.182.24.249.425.249.96-.154 1.41l-.057.057c-.45.403-.986.403-1.411.154a1.182 1.182 0 0 1-.24-.182zm.617-.616.444-.444a.31.31 0 0 0-.063-.052c-.093-.055-.263-.055-.35.024l.208.232.207-.206.006.007-.22.257-.026-.024.033-.034.025.027-.257.22-.007-.007zm-.027-.415c-.078.088-.078.257-.023.35a.31.31 0 0 0 .051.063l.205-.204-.233-.209z" transform="translate(448 544)"></path></g></g></svg>
-            </label>
-          <input id="Messaging-searchBar-label" class="Messaging-searchBar-main" type="text" placeholder="search messages">
+
           <label for="Messaging-searchBar-label">
-            <svg class="Messaging-searchBar-filter mslf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#858585" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" ><line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/></svg>
+            <svg class="Messaging-searchBar-logo mslf" viewBox="0 0 16 16" fill="currentColor" class="">
+              <g fill-rule="evenodd" transform="translate(-448 -544)">
+                <g fill-rule="nonzero">
+                  <path
+                    d="M10.743 2.257a6 6 0 1 1-8.485 8.486 6 6 0 0 1 8.485-8.486zm-1.06 1.06a4.5 4.5 0 1 0-6.365 6.364 4.5 4.5 0 0 0 6.364-6.363z"
+                    transform="translate(448 544)"></path>
+                  <path
+                    d="M10.39 8.75a2.94 2.94 0 0 0-.199.432c-.155.417-.23.849-.172 1.284.055.415.232.794.54 1.103a.75.75 0 0 0 1.112-1.004l-.051-.057a.39.39 0 0 1-.114-.24c-.021-.155.014-.356.09-.563.031-.081.06-.145.08-.182l.012-.022a.75.75 0 1 0-1.299-.752z"
+                    transform="translate(448 544)"></path>
+                  <path
+                    d="M9.557 11.659c.038-.018.09-.04.15-.064.207-.077.408-.112.562-.092.08.01.143.034.198.077l.041.036a.75.75 0 0 0 1.06-1.06 1.881 1.881 0 0 0-1.103-.54c-.435-.058-.867.018-1.284.175-.189.07-.336.143-.433.2a.75.75 0 0 0 .624 1.356l.066-.027.12-.061z"
+                    transform="translate(448 544)"></path>
+                  <path
+                    d="m13.463 15.142-.04-.044-3.574-4.192c-.599-.703.355-1.656 1.058-1.057l4.191 3.574.044.04c.058.059.122.137.182.24.249.425.249.96-.154 1.41l-.057.057c-.45.403-.986.403-1.411.154a1.182 1.182 0 0 1-.24-.182zm.617-.616.444-.444a.31.31 0 0 0-.063-.052c-.093-.055-.263-.055-.35.024l.208.232.207-.206.006.007-.22.257-.026-.024.033-.034.025.027-.257.22-.007-.007zm-.027-.415c-.078.088-.078.257-.023.35a.31.31 0 0 0 .051.063l.205-.204-.233-.209z"
+                    transform="translate(448 544)"></path>
+                </g>
+              </g>
+            </svg>
+          </label>
+          <input id="Messaging-searchBar-label" class="Messaging-searchBar-main" type="text"
+            placeholder="search messages">
+          <label for="Messaging-searchBar-label">
+            <svg class="Messaging-searchBar-filter mslf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              fill="none" stroke="#858585" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="21" x2="14" y1="4" y2="4" />
+              <line x1="10" x2="3" y1="4" y2="4" />
+              <line x1="21" x2="12" y1="12" y2="12" />
+              <line x1="8" x2="3" y1="12" y2="12" />
+              <line x1="21" x2="16" y1="20" y2="20" />
+              <line x1="12" x2="3" y1="20" y2="20" />
+              <line x1="14" x2="14" y1="2" y2="6" />
+              <line x1="8" x2="8" y1="10" y2="14" />
+              <line x1="16" x2="16" y1="18" y2="22" />
+            </svg>
           </label>
         </div>
         <div class="Messaging-userFilters">
@@ -1318,7 +988,7 @@
             <div class="Messaging-body-userInfo-right">
               <div class="Messaging-body-userInfo-main">
                 <div class="Messaging-body-userInfo-main-userName">Alex Hales</div>
-                <span class="Messaging-body-userInfo-main-date">Mar 11  </span>
+                <span class="Messaging-body-userInfo-main-date">Mar 11 </span>
               </div>
               <div class="Messaging-body-userInfo-right-lastConversation">
                 you shared a post
@@ -1331,5 +1001,6 @@
     </div>
     <script src="
     script.js"></script>
-  </body>
+</body>
+
 </html>
